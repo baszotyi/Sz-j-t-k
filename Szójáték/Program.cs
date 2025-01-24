@@ -10,6 +10,8 @@ namespace Szójáték
     {
         static void Main(string[] args)
         {
+
+            string fálj = "szoveg.txt";
             Console.WriteLine("Hello");
         }
     }
