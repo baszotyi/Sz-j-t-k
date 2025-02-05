@@ -11,8 +11,25 @@ namespace Szójáték
         static void Main(string[] args)
         {
 
-            string fálj = "szoveg.txt";
-            Console.WriteLine("Hello");
+            string fájl = "szoveg.txt";
+            Szojatek sz = new Szojatek(fájl);
+
+            Console.WriteLine("1. Feladat");
+            Console.Write("Írj be egy szót: ");
+            string bekertszo = Console.ReadLine();
+            sz.TartalmazEMaganhangzot(bekertszo);
+
+            Console.WriteLine("\n2. Feladat");
+            sz.LeghosszabbSzo();
+
+            Console.WriteLine("\n3. Feladat");
+
+
+
+
+
+
+            Console.ReadLine();
         }
     }
 }
