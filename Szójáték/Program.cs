@@ -23,6 +23,17 @@ namespace Szójáték
             sz.LeghosszabbSzo();
 
             Console.WriteLine("\n3. Feladat");
+            sz.TobbMagaanHangzo();
+            Console.WriteLine("\n4. Feladat");
+            Console.Write("Kérem, adjon meg egy 3 karakteres szórészletet: ");
+            string bekertszo2 = Console.ReadLine();
+            sz.Szoletra(bekertszo2);
+
+
+            Console.WriteLine("\n5.Feladat");
+
+            sz.TaroltSzavakFeladat();
+
 
 
 
