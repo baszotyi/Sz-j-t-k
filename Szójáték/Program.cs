@@ -32,6 +32,9 @@ namespace Szójáték
 
             Console.WriteLine("\n5.Feladat");
 
+
+
+
             sz.TaroltSzavakFeladat();
 
 
