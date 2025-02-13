@@ -86,7 +86,7 @@ namespace Szójáték
             }
 
             // Eredmények írása a letra.txt fájlba
-            using (StreamWriter writer = new StreamWriter("letra.txt"))
+            using (StreamWriter writer = new StreamWriter("letra.txt "))
             {
                 foreach (var par in letrak)
                 {
